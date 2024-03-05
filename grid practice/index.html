@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-USA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 
+    <form onsubmit="event.preventDefault(); validation();">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="password1">Password:</label><br>
+        <input type="password" id="password1" name="password1"><br>
+
+        <label for="password2">Confirm Password:</label><br>
+        <input type="password" id="password2" name="password2"><br>
+
+        <input type="submit" value="Submit">
+    </form>  
+    
+    <h1 id = h1>
+        introduction to grid
+    </h1>
+    
+    <div class="grid">
+        <div class = "banner">banner</div>
+        <div class = "menu_bar_horizontal">menu_bar_horizontal</div>
+        <div class = "menu_bar_vertical">menu_bar_vertical</div>
+        <div class = "content_section">content_section</div>
+        <div class = "image_1">image_1</div>
+        <div class = "image_2">image_2</div>
+        <div class = "footer_section">footer_section</div>
+    </div>
+
+
+        
+
+<script src="validation.js"></script>
+</body>
+</html>
