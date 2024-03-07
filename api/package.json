@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api for students",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uzair Anjum",
+  "license": "ISC",
+  "dependencies": {
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^8.2.1"
+  }
+}
