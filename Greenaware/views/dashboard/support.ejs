@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Dashboard - Greenaware</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <!-- Include the top navbar -->
+<%- include('../partials/navbar') %>
+
+
+
+    <!-- Main Content Area -->
+    <div style="margin-left:25%">
+        <main class="main-content">
+            <div class="account-management">
+                <!-- Form to create a new support account -->
+                <form action="/dashboard/support/create-account" method="post">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="text" name="forename" placeholder="Forename" required>
+                    <input type="text" name="surname" placeholder="Surname" required>
+                    <input type="text" name="address" placeholder="Address">
+                    <input type="password" name="password" placeholder="Password" required>
+                    <button type="submit">Create Support Account</button>
+                </form>
+            </div>
+            <div class="account-management">
+                <!-- Display account management functionality here -->
+            </div>
+            <div class="messages">
+                <!-- Display messages and messaging functionality here -->
+            </div>
+            <h1>Support Dashboard</h1>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
